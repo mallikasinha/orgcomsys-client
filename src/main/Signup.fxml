@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="700.0" style="-fx-background-color: #ffffff;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="main.SignupController">
+   <children>
+      <AnchorPane prefHeight="63.0" prefWidth="700.0" style="-fx-background-color: #3498db;">
+         <children>
+            <Label layoutX="33.0" layoutY="14.0" prefHeight="35.0" prefWidth="220.0" text="Company's Detail" textFill="#f5f3f3">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <JFXTextField fx:id="companyName" layoutX="33.0" layoutY="106.0" maxWidth="275.0" minWidth="248.0" prefHeight="36.0" prefWidth="275.0" promptText="Company Name">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="companyAddress" layoutX="33.0" layoutY="185.0" maxWidth="275.0" minWidth="248.0" prefHeight="36.0" prefWidth="275.0" promptText="Address">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="phoneNo" layoutX="33.0" layoutY="260.0" maxWidth="275.0" minWidth="248.0" prefHeight="36.0" prefWidth="275.0" promptText="Phone No">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="panNo" layoutX="398.0" layoutY="106.0" maxWidth="275.0" minWidth="248.0" prefHeight="36.0" prefWidth="275.0" promptText="Pan No">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="mailingAddress" layoutX="398.0" layoutY="185.0" maxWidth="275.0" minWidth="248.0" prefHeight="36.0" prefWidth="275.0" promptText="Mailing Address">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton layoutX="42.0" layoutY="353.0" prefHeight="25.0" prefWidth="80.0" style="-fx-background-color: #3498db;" text="Reset" textFill="#f5f3f3">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="579.0" layoutY="353.0" onAction="#onSignUp" prefHeight="25.0" prefWidth="80.0" style="-fx-background-color: #3498db;" text="Sign Up" textFill="#f5f3f3">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
